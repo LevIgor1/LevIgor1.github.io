@@ -1,0 +1,29 @@
+body{
+	background: darkviolet;
+	color: white;
+	font-size: 120%;
+}
+
+img{
+	background: white;
+	border-radius:15%;
+	padding: 1%;
+}
+
+main{
+	border-radius: 205px;
+	background: darkblue;
+	padding: 5%;
+}
+
+.container{
+	display: flex;
+}
+
+li{
+	margin: 2px;
+}
+
+.item {
+	padding: 1%;
+}
