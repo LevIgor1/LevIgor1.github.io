@@ -2,6 +2,7 @@ body{
 	background: darkviolet;
 	color: white;
 	font-size: 120%;
+	display: flex;
 }
 
 img{
