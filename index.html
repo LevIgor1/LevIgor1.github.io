@@ -1,133 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<title>Довідка</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Interception</title>
 </head>
 <body>
-	<header>
-		<h1>Опис програми</h1>
-		<p>
-			В цій програмі ви можете створювати, додавати та видаляти полотна с фігурами, також ви можете зберігати в файли додавати в файли та зчитувати інформацію.
-		</p>
-	</header>
-	<main>
-		<div class="container">
-			<div class="item">
-				<p>Для працювання з програмою використовується меню програми, а воно працює за допомогою вводу чисел, а число 0 є виходом за програми</p>
-				<ol>
-					<li>Очистка</li>
-					<li>Редагування</li>
-					<li>Збереження</li>
-					<li>Видалення</li>
-					<li>Сортування</li>
-					<li>Пошук</li>
-					<li>Друк</li>
-					<li>Відкриття файлу</li>
-					<li>Довідка</li>
-				</ol>
-			</div>
-			<figure>
-				<img src="Меню.jpg" class="item">
-				<figcaption>Рисунок 1 - Меню програми</figcaption>
-			</figure>
-		</div>
-		<hr>
-		<div>
-			<ol>
-				<div class="container">
-					<li class="item">Очищає контейнер з полотнами який обробляється в даний період часу.</li>
-				</div>
-				<hr>
-				<div>
-					<li>
-						<div class="item">Дозволяє видаляти та додавати полотна до контейнеру.</div>
-						<figure>
-							<img src="Функціонал\Редагування.jpg" class="item">
-							<figcaption>Рисунок 2 - Меню редагування</figcaption>
-						</figure>
-					</li>
-					<div>
-						<p class="item">Для того щоб додати полотно з фігурами потрібно вибрати 1 пункт редагування.</p>
-						<figure>
-							<img src="Функціонал\Додавання полотна.jpg" class="item">
-							<figcaption>Рисунок 3 - Додавання</figcaption>
-						</figure>
-					</div>
-					<p>Для того щоб видалити полотно потрібно вибрати 2.</p>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Зберігає полотно в файлі, для подальшого завантаження.<br>Для того щоб зберігти вибираємо в 3 пункті меню, 2 пункт(Новий файл) та виставляємо його тип збереження</li>
-					<figure>
-						<img src="Функціонал\Новий файл.jpg" class="item">
-						<figcaption>Рисунок 4 - Створення та збереження файлу</figcaption>
-					</figure>
-					<p class="item">Після чого в програмі зберігаються дані з полотнами.</p>
-					<figure>
-						<img src="Функціонал\Результат збереження.jpg">
-						<figcaption>Рисунок 5 - Файл з даними</figcaption>
-					</figure>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Видаляє дані з файлу.</li>
-					<figure>
-						<img src="Функціонал\Видалення даних.jpg" class="item">
-						<figcaption>Рисунок 6 - Меню видалення даних</figcaption>
-					</figure>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Сортує полотна по кількоісті фігур за зростанням.</li>
-					<p >Приклад:</p>
-					<figure>
-						<img src="Функціонал\Дані.jpg" class="item">
-						<figcaption>Рисунок 7 - Початкові дані</figcaption>
-					</figure>
-					<figure>
-						<img src="Функціонал\Відсортовані дані.jpg" class="item">
-						<figcaption>Рисунок 8 - Відсортовані дані</figcaption>
-					</figure>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Шукає фігури в полотнах. Пошук відбувається за допомогою вибору номеру фігури.</li>
-					<figure>
-						<img src="Функціонал\Номери фігур.jpg" class="item">
-						<figcaption>Рисунок 9 - Вибір фігур</figcaption>
-					</figure>
-					<p>Після чого можете вибрати будь-яку фігуг яку вам потрібно знайти, для прикладу виберемо трикутник</p>
-					<figure>
-						<img src="Функціонал\Результат пошуку.jpg" class="item">
-						<figcaption>Рисунок 10 - Вивід всіх трикутників</figcaption>
-					</figure>
-					<p>Після того як програма знайде фігури вона виведе всі полотна та трикутники в цих полотнах</p>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Друкує полотна з фігурами. це помітно на рисунку 7.</li>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Дозволяє вибрати файл для завантаження даних</li>
-					<figure>
-						<img src="Функціонал\Вибір файлу.jpg" class="item">
-						<figcaption>Рисунок 11 - Каталог файлів</figcaption>
-					</figure>
-					<p>Після вибору файлу програма зчитає дані з цього файлую.</p>
-				</div>
-				<hr>
-				<div>
-					<li class="item">Відкриває сторінку в браузері яку ви читаєте зараз.</li>
-				</div>
-				<hr>
-			</ol>
-		</div>
-		<h1 style="color: darkblue;">Можливо це було корисно</h1>
-	</main>
+    <p id="text"></p>
+
+    <script>
+        // Зміна тексту після завантаження сторінки
+        document.addEventListener('DOMContentLoaded', function() {
+            const p = document.getElementById('text');
+            p.textContent = 'Це текст, який ви хочете скопіювати, осклільки тут написана важлива для вас інформація';
+        });
+
+        // Перехоплення події копіювання
+        document.addEventListener('copy', function(event) {
+            event.preventDefault();
+            const customText = 'ти правда думав що у тебе це вийде?';
+            if (event.clipboardData) {
+                event.clipboardData.setData('text/plain', customText);
+            } else if (window.clipboardData) {
+                window.clipboardData.setData('Text', customText);
+            }
+        });
+    </script>
 </body>
 </html>
